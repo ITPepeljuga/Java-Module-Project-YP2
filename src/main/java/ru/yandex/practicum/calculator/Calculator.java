@@ -30,6 +30,7 @@ public class Calculator {
         return totalPrice;
     }
 
+
     // Метод для подсчета сколько надо заплатить каждому другу
     public float calculatePerFriendPrice(int friends) {
         float totalPrice = calculateTotalPrice();

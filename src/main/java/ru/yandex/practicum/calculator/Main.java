@@ -28,6 +28,7 @@ public class Main {
         scanner.nextLine(); // Строка для считывания символа новой строки
         System.out.println("Напишите название товара");
 
+
         while (true) {
             Item item = new Item();
             item.name = scanner.nextLine();
