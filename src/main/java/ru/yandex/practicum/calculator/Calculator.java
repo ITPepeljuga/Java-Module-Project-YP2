@@ -37,6 +37,7 @@ public class Calculator {
         float perFriendPrice = totalPrice / friends;
         String rubleForm = formatter.formatRubles(perFriendPrice); // Получаем форму слова "рубль"
         System.out.println("С носа: " + String.format("%.2f", perFriendPrice) + " " + rubleForm);
+        System.out.println("Хорошо, когда есть друзья!");
         return perFriendPrice;
     }
 }
